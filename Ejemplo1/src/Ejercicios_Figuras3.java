@@ -12,27 +12,18 @@ public class Ejercicios_Figuras3 {
 		altura = entrada.nextInt();
 		entrada.nextLine();
 		
-		for (int i = 0; i < altura; i++) {
-			for(int j = 0; j < i + 1; j++) {
-				
-				if(i > 0 && i < (altura-1)) {
-					
-					if(j > 0 && j < i) {
-						System.out.print("  ");
-						
-					}else {
-						System.out.print("* ");
-					}
-				
-				}else {
-					System.out.print("* ");
-				}
+		for(int i = 0; i < altura; i++) {
+			for(int j = 0; j < altura - 1; j++) {
+				System.out.print(" ");
 			}
-			System.out.println("  ");
+			for(int k = 0; k < i; k++) {
+				System.out.print("* ");
+			}
+			System.out.println();
 		}
 		
 		entrada.close();
 
 	}
-
+	
 }
