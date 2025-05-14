@@ -16,6 +16,11 @@ public class Ejemplo_Objetos {
 		this.pelo = pelo;
 		this.voz = voz;
 	}
+	
+	public Ejemplo_Objetos(int edad) {
+		super();
+		this.edad = edad;
+	}
 
 	public int getEdad() {
 		return edad;
@@ -57,6 +62,10 @@ public class Ejemplo_Objetos {
 		this.voz = voz;
 	}
 	
-
+	@Override
+	public String toString() {/*Sirve para devolver el contenido de las funciones en forma de mensaje.*/
+		return "Ejemplo_Objetos [edad=" + edad + ", altura=" + altura + ", peso=" + peso + ", pelo=" + pelo + ", voz="
+				+ voz + "]";
+	}
 
 }
