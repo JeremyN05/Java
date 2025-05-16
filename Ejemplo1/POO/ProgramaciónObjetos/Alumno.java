@@ -14,8 +14,7 @@ public class Alumno {
 	boolean repetidor;
 	Modulo [] unModulos;
 	
-	public Alumno(String dni, String nombre, String apellidos, String fechaNac, Sexo unSexo, boolean repetidor,
-			Modulo[] unModulos) {
+	public Alumno(String dni, String nombre, String apellidos, String fechaNac, Sexo unSexo, boolean repetidor, Modulo[] unModulos) {
 		super();
 		this.dni = dni;
 		this.nombre = nombre;
