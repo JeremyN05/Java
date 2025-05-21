@@ -1,11 +1,13 @@
 package ProgramaciónObjetos;
 
+import java.util.Scanner;
+
 public class Centro {
 
 	public static void main(String[] args) {
 		
 		Modulo[] arrayModulos = new Modulo[2];
-		
+	
 		Profesor P01 = new Profesor("23189763L", "Juan", "Valdes", 2000, 2, true);
 		Profesor P02 = new Profesor("26739164G", "Jacob", "Navarro", 1500, 1, false);
 		

@@ -1,5 +1,4 @@
 package ProgramaciónObjetos;
-import ProgramaciónObjetos.Profesor;
 
 public class Modulo {
 	
